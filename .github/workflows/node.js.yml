@@ -28,5 +28,5 @@ jobs:
         cache: 'npm'
     - run: npm ci
     - run: npm run build --if-present
-    - run: TZ=UTC npm test
+    - run: TZ=UTC+1 npm test
 
